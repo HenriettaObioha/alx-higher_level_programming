@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""script that fetches https://alx-intranet.hbtn.io/statu using urlib"""
+"""script that fetches https://alx-intranet.hbtn.io/statu using urllib"""
 
 if __name__ == "__main__":
-    imort urlib.request
+    imort urllib.request
 
-    with urlib.request.urlopen('https://alx-intranet.hbtn.io/status') as response:
+    with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as response:
         content = response.read()
         print("Body response:")
         print("\t- type: {}".format(type(body)))
