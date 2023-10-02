@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-"""script that fetches https://alx-intranet.hbtn.io/statu using urllib"""
+"""script that fetches https://alx-intranet.hbtn.io/status 
+ - using urllib package
+ """
 
 if __name__ == "__main__":
-    imort urllib.request
+    import urllib.request
 
     with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as response:
         content = response.read()
