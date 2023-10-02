@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-"""script sends a POST to a given URL with a given email"""
+"""script sends a POST to a given URL with a given email.
 Usage: ./2-post_email.py <URL> <email>
 - Displays the body of the response.
+"""
 
 import sys
 import urllib.parse
