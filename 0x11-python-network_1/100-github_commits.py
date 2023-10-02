@@ -4,7 +4,7 @@ Usage: ./100-ithub_commits.py <repository name> <repository owner>
 """
 
 import sys
-import requets
+import requests
 
 if __name__ == "__main__":
     url = "https://api.github.com/repos/{}/{}/commits".format(
